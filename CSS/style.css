@@ -1,0 +1,72 @@
+header
+	{
+	background-image: url("../images/font4.jpg");
+	background-attachment:fixed;
+	clear:both;
+	color:#3e38ed;
+}
+main
+{
+	color:#2c1aef;
+	background-image:url("../images/font6.jpg");
+	background-attachment:fixed;
+	clear:both;
+}
+footer
+{
+	background-image:url("../images/font2.jpg");
+	background-attachment:fixed;
+}
+.conteneur
+{
+	width:100%;
+	max-width:960px;
+	padding:10px;
+	margin:15px;
+	margin:auto;
+}
+.colonne
+{
+	display:inline-block;
+	margin:10px;
+	width:30.5%;
+	vertical-align:top;
+}
+.colonne h1
+{
+	text-align:center;
+}
+td
+{
+	padding-top:4px;
+	text-align:justify;
+}
+.en_tete{
+	display:inline-block;
+	vertical-align:middle;
+}
+iframe
+{
+	width:50%;
+	vertical-align:middle;
+}
+.contact{
+	display:inline-block;
+	margin-left:30px;
+	vertical-align:middle;
+}
+h3
+{
+	color:#152ba5;
+    font-family: Arial,serif;
+    text-align: center;
+	text-shadow: 2px 2px 4px black;
+}
+.contact
+{
+    text-align:center;
+    width:30%;
+    margin-left:30px;
+    display:inline-block;
+    vertical-align:middle;
+}
