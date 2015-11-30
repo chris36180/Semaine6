@@ -1,7 +1,7 @@
 header
 	{
 	background-image: url("../images/font4.jpg");
-	background-attachment:fixed;
+
 	clear:both;
 	color:#3e38ed;
 }
@@ -15,7 +15,6 @@ main
 footer
 {
 	background-image:url("../images/font2.jpg");
-	background-attachment:fixed;
 }
 .conteneur
 {
