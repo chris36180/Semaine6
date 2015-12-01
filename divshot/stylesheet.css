@@ -32,7 +32,7 @@ header {
 
 .img-header {
     width: 60px;
-    float:left;
+    float:bottom;
 }
 
 .left {
@@ -54,13 +54,25 @@ h1 {
     padding-left: 0;
 }
 p {
-    position:bottom;
     display: inline-block;
     color: black;
     font-size: 1.1em;
     padding: 20px;
     margin:0;
 }
+.grey {
+    color: #3f4042;  
+    font-weight: 600;
+}
+
+.link:hover p {
+    color: #3f4042;
+}
+
+.link:hover p.grey {
+    color: #FFF;
+}
+
 /* Fléches */
 
 .arrow {
