@@ -54,6 +54,7 @@ h1 {
     padding-left: 0;
 }
 p {
+    position:bottom;
     display: inline-block;
     color: black;
     font-size: 1.1em;
