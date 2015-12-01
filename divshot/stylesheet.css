@@ -13,6 +13,11 @@ header {
     height: 100px;
     margin-bottom: 3px;
 }
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
 /* Container */
 
 .container-fluid {
@@ -65,6 +70,8 @@ p {
     width: 15px;
     height: 15px;
     background: url(img/arrow01grey.png);
+     background-size: 15px 15px;
+    background-repeat: no-repeat;
 }
 
 
