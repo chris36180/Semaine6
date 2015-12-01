@@ -1,4 +1,11 @@
-body p{
+/*css app*/
+html, body {
+    background-color: #3f4042;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+Body p{
 	 border: 3px black ;
 }
 header {
@@ -36,8 +43,121 @@ h1 {
 }
 p {
     display: inline-block;
-    color: gray;
+    color: black;
     font-size: 1.1em;
     padding: 20px;
     margin:0;
+}
+/* Fléches */
+
+.arrow {
+    display: inline-block;
+    float: right;
+    margin-right: 15px;
+    margin-top: 24px;
+    width: 15px;
+    height: 15px;
+    background: url(img/arrow01grey.png);
+}
+
+
+
+.link {
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+}
+
+/* Vignettes */
+
+.little {
+    position: relative;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 60px;
+    margin:3px;
+}
+
+.little-special {
+    position: relative;
+    height: 247px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 60px;
+    margin:3px;
+}
+
+.big {
+    position: relative;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 60px;
+    margin:3px;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+/*couleur*/
+
+.green {
+    background-color: #20e544;
+}
+
+.white-dark {
+    background-color: #999999;
+}
+
+.pink {
+    background-color: #fa8a7e;
+}
+
+.pink-dark {
+    background-color: #f8504d;
+}
+
+.purple {
+    background-color: #b483ff;
+}
+
+.purple-dark {
+    background-color: #7f53c6;
+}
+
+.yellow {
+    background-color: #fbff86;
+}
+
+.yellow-dark {
+    background-color: #fbed1a;
+}
+
+.green {
+    background-color: #b7f6c9;
+}
+
+.green-dark {
+    background-color: #35eab5;
+}
+
+.blue {
+    background-color: #7efeff;
+}
+
+.blue-dark {
+    background-color: #3ea8f6;
+}
+/* Responsive */
+
+@media (max-width: 991px) {
+    .col-md-4, .col-md-6, .col-md-12, header {
+        margin-bottom: 3px;
+    }
+
+    .little, .little-special, .big {
+        margin-bottom: 6px;
+    }
 }
