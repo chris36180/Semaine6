@@ -13,7 +13,14 @@ header {
     height: 100px;
     margin-bottom: 3px;
 }
+/* Container */
 
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-left:-4px;
+    margin-right:-4px;
+}
 .title {
     padding: 20px;
 }
